@@ -1,0 +1,90 @@
+   body {
+      font-family:'Merriweather', serif; 
+      margin: 0;
+      padding: 0;
+      background-color: #f0f0f0;
+      color: #222;
+      background: linear-gradient(to bottom, #555, #999);
+    }
+    header {
+      background-color: #222;
+      color: #fff;
+      text-align: center;
+      padding: 1rem 0;
+      position: relative;
+    }
+    .branding {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+   /* nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 1rem;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #ff9900;
+      text-decoration: underline;
+    }*/
+
+   
+    /* Flexbox layout for header navigation */
+    nav {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      text-decoration: underline;
+      color: lightgray;
+    }
+
+    /* Media Queries for responsiveness */
+    @media (max-width: 768px) {
+      .profile-image img {
+        float: none;
+        width: 100%;
+        height: auto;
+      }
+      /* Adjust other styles for smaller screens */
+    }
+
+    /* CSS Animation for the button */
+    button {
+      padding: 10px 20px;
+      background-color: #333;
+      color: white;
+      border: none;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #555;
+    } 
+
+img {
+  width: 200px; /* Set the desired width */
+  height: auto; /* Maintain aspect ratio */
+  border: 8px solid #222;
+}
+ul {
+  list-style-type: disc;
+  color: #ff9900; /
+}
+
+/* Footer section */
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+    }
+
